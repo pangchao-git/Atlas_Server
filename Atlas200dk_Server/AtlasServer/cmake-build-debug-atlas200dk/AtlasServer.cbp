@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="AtlasServer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/cmake-build-debug-atlas200dk"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/cmake-build-debug-atlas200dk"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AtlasServer">
+				<Option output="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/cmake-build-debug-atlas200dk/AtlasServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/cmake-build-debug-atlas200dk"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/third_party/opencv/include"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/3rdPart/cpprestsdk/include"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/atlas-aarch64/log4cpp/include"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/./source/foundation/include"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/./source/Manager"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/./source/AnalyseSingle"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/./source/AnalyseSingle/include"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/atlas-aarch64/boost-aarch64/include"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/atlas-aarch64/openssl-aarch64/include"/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/inc"/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/third_party/protobuf/include"/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/third_party/cereal/include"/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/libc_sec/include"/>
+					<Add directory="/usr/lib/aarch64-linux-gnu"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/3rdPart/atlas200dk_sdk"/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/RC/host-aarch64_Ubuntu16.04.3/lib"/>
+					<Add directory="/home/pc/ascend_ddk/host/lib"/>
+					<Add directory="/home/pc/ascend_ddk/device/lib"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/../../../../aarch64-linux-gnu/include/c++/5"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/../../../../aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/../../../../aarch64-linux-gnu/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/../../../../aarch64-linux-gnu/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 AtlasServer"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AtlasServer/fast">
+				<Option output="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/cmake-build-debug-atlas200dk/AtlasServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/cmake-build-debug-atlas200dk"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/third_party/opencv/include"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/3rdPart/cpprestsdk/include"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/atlas-aarch64/log4cpp/include"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/./source/foundation/include"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/./source/Manager"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/./source/AnalyseSingle"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/./source/AnalyseSingle/include"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/atlas-aarch64/boost-aarch64/include"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/atlas-aarch64/openssl-aarch64/include"/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/inc"/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/third_party/protobuf/include"/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/third_party/cereal/include"/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/ddk/include/libc_sec/include"/>
+					<Add directory="/usr/lib/aarch64-linux-gnu"/>
+					<Add directory="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/3rdPart/atlas200dk_sdk"/>
+					<Add directory="/home/pc/.mindstudio/huawei/ddk/1.32.0.B080/RC/host-aarch64_Ubuntu16.04.3/lib"/>
+					<Add directory="/home/pc/ascend_ddk/host/lib"/>
+					<Add directory="/home/pc/ascend_ddk/device/lib"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/../../../../aarch64-linux-gnu/include/c++/5"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/../../../../aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/../../../../aarch64-linux-gnu/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/include"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/lib/gcc-cross/aarch64-linux-gnu/5/../../../../aarch64-linux-gnu/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 AtlasServer/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/cmake-build-debug-atlas200dk"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/cmake-build-debug-atlas200dk/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/AnalyseSingle/Algorithm/MeterV2Object.cpp">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/AnalyseSingle/Algorithm/MeterV2Object.h">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/AnalyseSingle/Algorithm/MeterV2Train.cpp">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/AnalyseSingle/Algorithm/MeterV2Train.h">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/AnalyseSingle/AnalyseBase/AnalyseCommon.cpp">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/AnalyseSingle/AnalyseBase/AnalyseCommon.h">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/AnalyseSingle/AnalyseBase/AnalyseObject.cpp">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/AnalyseSingle/AnalyseBase/AnalyseObject.h">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/AnalyseSingle/AnalyseBase/AnalyseTrain.cpp">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/AnalyseSingle/AnalyseBase/AnalyseTrain.h">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/AnalyseSingle/AnalyseSingleService.cpp">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/AnalyseSingle/AnalyseSingleService.h">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/AnalyseSingle/SingleObjectManager.cpp">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/AnalyseSingle/SingleObjectManager.h">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/AnalyseSingle/ThreadPool/TaskContainer.cpp">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/AnalyseSingle/ThreadPool/TaskContainer.h">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/AnalyseSingle/ThreadPool/ThreadPool.cpp">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/AnalyseSingle/ThreadPool/ThreadPool.h">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/Device/dev_system.cpp">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/Device/dev_system.h">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/HttpInterfaceHandler.cpp">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/HttpInterfaceHandler.h">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/Manager/DataBaseInterface.cpp">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/Manager/DataBaseInterface.h">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/Manager/FileManager.cpp">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/Manager/FileManager.h">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/Manager/GlobalDataManager.cpp">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/Manager/GlobalDataManager.h">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/Manager/NetScheduleLib.cpp">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/Manager/NetScheduleLib.h">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/Manager/sqlite/StringConvert.cpp">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/Manager/sqlite/StringConvert.h">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/Manager/sqlite/sqlite3.c">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/Manager/sqlite/sqlite3.h">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/Manager/sqlite/sqliteHelpper.cpp">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/Manager/sqlite/sqliteHelpper.h">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/foundation/basic_controller.cpp">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/foundation/network_utils.cpp">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/main.cpp">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/microsvc_controller.cpp">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/source/microsvc_controller.hpp">
+			<Option target="AtlasServer"/>
+		</Unit>
+		<Unit filename="/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

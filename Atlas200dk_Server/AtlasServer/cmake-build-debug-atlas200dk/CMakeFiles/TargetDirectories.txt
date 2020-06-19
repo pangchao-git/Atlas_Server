@@ -1,0 +1,3 @@
+/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/cmake-build-debug-atlas200dk/CMakeFiles/rebuild_cache.dir
+/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/cmake-build-debug-atlas200dk/CMakeFiles/AtlasServer.dir
+/home/pc/work/code_view/whayer_work/Atlas200dk_Server/AtlasServer/cmake-build-debug-atlas200dk/CMakeFiles/edit_cache.dir

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='gb2312' ?>
+<config>
+	<AnalyseHttp>
+                <host>10.1.1.14</host>
+		<port>6502</port>
+		<root>Image</root>
+	</AnalyseHttp>
+	<LogConfig>
+		<FileName>server.log</FileName>
+		<FileSize>10</FileSize>
+	</LogConfig>
+        <DbServer>
+		<!-- 数据库路径 -->
+		<path>AnalyseDB/</path>
+	</DbServer>
+	<GPUConfig>
+                <IsGPUStart>false</IsGPUStart>
+        </GPUConfig>
+</config>
+
